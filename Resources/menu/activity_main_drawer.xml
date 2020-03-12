@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_masterMenu"
+            android:icon="@drawable/masterMenu"
+            android:title="Master Menu" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/transaction"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/report"
+            android:title="Report" />
+    </group>
+</menu>
